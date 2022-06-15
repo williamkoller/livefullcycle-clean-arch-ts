@@ -8,6 +8,6 @@ export class RouteInMemoryRepository implements RouteRepositoryInterface {
   }
 
   async findAll(): Promise<Route[]> {
-    return this.items
+    return this.items;
   }
 }
